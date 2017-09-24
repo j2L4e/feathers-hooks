@@ -26,6 +26,10 @@ declare namespace hooks {
     data?: T;
     result?: T;
     app?: feathers.Application;
+    service?: Service<T>;
+    
+    // server side only
+    id?: string;
   }
 
   interface HookMap {
