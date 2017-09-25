@@ -28,7 +28,7 @@ declare namespace hooks {
     params?: any;
     path?: string;
     result?: T;
-    service: Service<T>;
+    service: feathers.Service<T>;
     type: 'before' | 'after' | 'error';
   }
 
